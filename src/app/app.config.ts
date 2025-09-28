@@ -1,6 +1,6 @@
 import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
-import Aura from '@primeng/themes/aura';
+import Aura from '@primeuix/themes/aura';
 import { routes } from './app.routes';
 import { providePrimeNG } from 'primeng/config';
 
@@ -10,14 +10,8 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     providePrimeNG({
       theme: {
-        preset: Aura,
-        options: {
-          colors: {
-            primary: '#020617', // Your custom button background color
-            onPrimary: '#ffffff', // Your custom button text color
-          },
-        },
-      },
-    }),
+        preset: Aura
+      }
+    })
   ],
 };

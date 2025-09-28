@@ -1,0 +1,45 @@
+:host ::ng-deep .my-p-datatable .p-datatable-table {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+:host ::ng-deep .my-p-datatable .p-datatable-thead > tr > th {
+  background-color: #fff;
+  color: #000;
+  border-radius: 16px 16px 0 0;
+}
+
+:host ::ng-deep .my-p-datatable .p-datatable-thead > tr > th:first-child {
+  border-top-left-radius: 16px;
+}
+
+:host ::ng-deep .my-p-datatable .p-datatable-thead > tr > th:last-child {
+  border-top-right-radius: 16px;
+}
+
+:host ::ng-deep .my-p-datatable .p-datatable-tbody > tr {
+  background: #fff;
+  color: #000;
+}
+
+:host
+  ::ng-deep
+  .my-p-datatable
+  .p-datatable-tbody
+  > tr:last-child
+  > td:first-child {
+  border-bottom-left-radius: 16px;
+}
+
+:host
+  ::ng-deep
+  .my-p-datatable
+  .p-datatable-tbody
+  > tr:last-child
+  > td:last-child {
+  border-bottom-right-radius: 16px;
+}
+
+:host ::ng-deep .my-p-datatable .p-datatable-tbody > tr:last-child > td {
+  border-bottom: none;
+}

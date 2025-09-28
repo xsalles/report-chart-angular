@@ -29,9 +29,9 @@ importers:
       '@angular/router':
         specifier: ^19.2.0
         version: 19.2.15(@angular/common@19.2.15(@angular/core@19.2.15(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@19.2.15(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@19.2.15(@angular/animations@19.2.15(@angular/common@19.2.15(@angular/core@19.2.15(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@19.2.15(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@19.2.15(@angular/core@19.2.15(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@19.2.15(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
-      '@primeng/themes':
-        specifier: ^19.1.4
-        version: 19.1.4
+      '@primeuix/themes':
+        specifier: ^1.2.5
+        version: 1.2.5
       chart.js:
         specifier: ^4.5.0
         version: 4.5.0
@@ -1489,15 +1489,23 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@primeng/themes@19.1.4':
-    resolution: {integrity: sha512-Hze5bBTjsLzZXb20qsm9apsFuzpZzXiU+Ulj/7R+2fwMmcQk0XpkQS7V88fsFw6xsTD7+R+hgqr7Rzy0Gf+4dw==}
-
   '@primeuix/styled@0.3.2':
     resolution: {integrity: sha512-ColZes0+/WKqH4ob2x8DyNYf1NENpe5ZguOvx5yCLxaP8EIMVhLjWLO/3umJiDnQU4XXMLkn2mMHHw+fhTX/mw==}
     engines: {node: '>=12.11.0'}
 
+  '@primeuix/styled@0.7.3':
+    resolution: {integrity: sha512-qAzefzODuYZRaEh2b2uTJCtaT+qUMAt1WPCZhYgkbLUVQ8qt7hFL5BjTsqqCaiBWZCZtDkGmKhP19SRIL6hAlQ==}
+    engines: {node: '>=12.11.0'}
+
+  '@primeuix/themes@1.2.5':
+    resolution: {integrity: sha512-n3YkwJrHQaEESc/D/A/iD815sxp8cKnmzscA6a8Tm8YvMtYU32eCahwLLe6h5rywghVwxASWuG36XBgISYOIjQ==}
+
   '@primeuix/utils@0.3.2':
     resolution: {integrity: sha512-B+nphqTQeq+i6JuICLdVWnDMjONome2sNz0xI65qIOyeB4EF12CoKRiCsxuZ5uKAkHi/0d1LqlQ9mIWRSdkavw==}
+    engines: {node: '>=12.11.0'}
+
+  '@primeuix/utils@0.6.1':
+    resolution: {integrity: sha512-tQL/ZOPgCdD+NTimlUmhyD0ey8J1XmpZE4hDHM+/fnuBicVVmlKOd5HpS748LcOVRUKbWjmEPdHX4hi5XZoC1Q==}
     engines: {node: '>=12.11.0'}
 
   '@rollup/rollup-android-arm-eabi@4.34.8':
@@ -5961,15 +5969,21 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@primeng/themes@19.1.4':
-    dependencies:
-      '@primeuix/styled': 0.3.2
-
   '@primeuix/styled@0.3.2':
     dependencies:
       '@primeuix/utils': 0.3.2
 
+  '@primeuix/styled@0.7.3':
+    dependencies:
+      '@primeuix/utils': 0.6.1
+
+  '@primeuix/themes@1.2.5':
+    dependencies:
+      '@primeuix/styled': 0.7.3
+
   '@primeuix/utils@0.3.2': {}
+
+  '@primeuix/utils@0.6.1': {}
 
   '@rollup/rollup-android-arm-eabi@4.34.8':
     optional: true

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-  --p-button-primary-background: #020617;
+  --p-button-background: #020617;
   --p-button-text-color: #ffffff;
 }
 
@@ -13,6 +13,9 @@
 
 app-root {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 body {
@@ -22,4 +25,5 @@ body {
   display: flex;
   justify-content: center;
   background-color: #F3F6F9;
+  gap: 32px;
 }

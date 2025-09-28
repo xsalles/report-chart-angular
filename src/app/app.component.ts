@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ChartComponent } from "./components/chart/chart.component";
-import { ButtonComponent } from "./components/button/button.component";
+import { TableComponent } from "./components/table/table.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ChartComponent, ButtonComponent],
+  imports: [RouterOutlet, ChartComponent, TableComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -8,5 +8,5 @@ import { ButtonModule } from 'primeng/button';
   styleUrl: './button.component.scss',
 })
 export class ButtonComponent {
-  @Input() label: string = 'Generate a PDF'
+  @Input() label: string = 'Gerar a PDF'
 }
