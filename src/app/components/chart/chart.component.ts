@@ -30,6 +30,13 @@ export class ChartComponent {
   options: ChartOptions<'bar'> = {
     responsive: true,
     maintainAspectRatio: false,
+    elements: {
+      bar: {
+        hoverBackgroundColor: '#1E88E5',
+        borderRadius: 8,
+        borderSkipped: false,
+      }
+    },
     plugins: {
       legend: {
         display: true,

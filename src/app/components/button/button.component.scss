@@ -1,4 +1,4 @@
-:host ::ng-deep .p-button {
+:host ::ng-deep .p-button.p-component {
   background-color: #020617;
   color: #fff;
   border: 1px solid #020617;
@@ -6,7 +6,7 @@
   border: none;
 }
 
-:host ::ng-deep .p-button:hover {
+:host ::ng-deep .p-button.p-component:hover {
   background-color: #363636;
   color: #fff;
   border: none;
