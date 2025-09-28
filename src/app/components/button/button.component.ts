@@ -8,7 +8,7 @@ import { ButtonModule } from 'primeng/button';
   styleUrl: './button.component.scss',
 })
 export class ButtonComponent {
-  @Input() label: string = 'Gerar a PDF';
+  @Input() label: string = 'Gerar PDF';
   @Output() onClick = new EventEmitter<void>();
 
   handleClick() {
