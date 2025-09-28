@@ -1,0 +1,16 @@
+.card {
+    width: 100%;
+    height: 400px;
+
+
+    .chart {
+        width: 100%;
+        height: 400px;
+        display: block;
+    }
+
+    ::ng-deep .chart canvas {
+        height: 400px ;
+        display: block;
+    }
+}
